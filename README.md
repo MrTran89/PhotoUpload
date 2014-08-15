@@ -9,4 +9,7 @@
 
 
 #####How to import to your local server ?
-######Step 1 : You need to edit the file called *db.inc.php* int the folder called *includes*
+######Step 1 : You need to edit the file called *db.inc.php* from the folder called *includes*
+######Step 2 : You need to import the file called *create_table_upload_image.sql* from the folder called *sql_script* to your database. 
+
+#####Hope you enjoy
