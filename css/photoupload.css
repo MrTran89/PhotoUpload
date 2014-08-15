@@ -1,0 +1,83 @@
+body
+{
+	background: #2ecc71;
+}
+
+/* -------- Upload yours photos --------- */
+
+.title
+{
+	color: #9b59b6;
+	margin-top: 300px;
+	font-size: 80px;
+	text-align: center;
+	text-shadow: 10px 10px 100px #9b59b6;
+}
+
+.title:hover /* title's survol */
+{
+	color: #d35400;
+	transition: 2s;
+	-webkit-transition: 2s;
+	-moz-transition: 2s;
+	text-shadow: 10px 10px 100px #d35400;
+}
+
+/* ----------- Forms ---------- */
+.width
+{
+	color: #ecf0f1;	
+	margin-left: 38%;
+	padding-top: 5%;
+}
+
+.width > input
+{
+	border: none;
+	border-radius: 3px 3px 3px 3px;
+}
+
+.hight
+{
+	color:  #ecf0f1;
+	margin-left: 38%;
+}
+
+.hight > input
+{
+	border: none;
+	border-radius: 3px 3px 3px 3px;
+}
+
+.file
+{
+	margin-left: 46.3%;
+	border: none;
+	border-radius: 3px 3px 3px 3px;
+}
+
+.send
+{
+	margin-left: 46.3%;
+	border: none;
+	border-radius: 3px 3px 3px 3px;
+}
+
+.error
+{
+	color: #e74c3c;
+	text-align: center;
+	padding-top: 450px;
+}
+
+.hidden_message {
+	display: none;
+	color: red;
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+}
+
+input:focus + .hidden_message {
+	display: inline-block;
+}
