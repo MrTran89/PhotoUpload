@@ -1,3 +1,7 @@
 <?php
-	$bdd = new PDO('mysql:host=localhost;dbname=uploadImage', 'root', '');
+	$host = 'localhost';
+	$database = 'uploadImage';
+	$user = 'root';
+	$password = '';
+	$bdd = new PDO("mysql:host=$host;dbname=$database", $user, $password);
 ?>
