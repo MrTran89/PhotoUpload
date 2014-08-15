@@ -8,3 +8,4 @@
 ######Last step : you just need click in the button "UpLoad" now and it's done. 
 
 
+#####How to import to your local server ?
