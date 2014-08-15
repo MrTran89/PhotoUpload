@@ -24,6 +24,7 @@
 		</label><br />
 		<input class="file" type="file" name="fileUpload" /><br />
 		<input class="send" type="submit" value="UpLoad">
+		<p>See yous UpLoaded Photos <a href="images.php"><strong>here</strong></a></p>
 	</form>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 </body>

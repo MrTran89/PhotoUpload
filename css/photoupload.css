@@ -70,7 +70,9 @@ body
 	padding-top: 450px;
 }
 
-.hidden_message {
+/* ------hidden message---- */
+.hidden_message 
+{
 	display: none;
 	color: red;
 	-webkit-transition: 1s;
@@ -78,6 +80,20 @@ body
 	transition: 1s;
 }
 
-input:focus + .hidden_message {
+input:focus + .hidden_message 
+{
 	display: inline-block;
+}
+/* ---see your updated photos--- */
+p
+{
+	color: white;
+	margin-left: 38%;
+	padding-top: 10px;
+}
+
+a
+{
+	color: red;
+	/*text-decoration: none;*/
 }
